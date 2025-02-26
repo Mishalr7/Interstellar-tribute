@@ -1,10 +1,9 @@
 body {  
   background: linear-gradient(180deg,  
-  #040a26 10%,  /* Deep Space Blue */
-  #201a47 30%,  /* Dark Violet */
-  #1a2c80 50%,  /* Cosmic Blue */
-  #6f62b9 70%,  /* Nebula Purple */
-  rgb(2, 6, 23) 100%  /* Space Sunset Glow */
+  #000000 20%, 
+  #000014 50%,
+  #020617 70%, 
+  #14162C 100%  
 );
 background-attachment: fixed;
     display: grid;
@@ -13,7 +12,7 @@ background-attachment: fixed;
 #title{
  color: white;
  font-size: 2.5em;
- font-family: 'Cinzel', serif;
+ font-family: 'Linotype', serif;
  white-space:nowrap;
  padding: 2vw 5vh;
  text-shadow: 4px 4px 0 #999,  
@@ -25,4 +24,20 @@ background-attachment: fixed;
       justify-content: flex-start; /* Moves title up */
       padding-top: 20vh; /* Pushes it slightly above center */
   }
+}
+*{
+margin:0;
+padding:0;
+}
+model-viewer{
+  width: 98vw;
+  height: 97vh;
+  position: relative;
+  top: -23vh;
+  left: 0vw;
+  background-color: #040a1100;
+}
+@font-face {
+  font-family: 'Linotype';
+  src: url(Linotype\ Didot\ Bold.otf);
 }
