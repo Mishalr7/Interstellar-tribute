@@ -1,0 +1,28 @@
+body {  
+  background: linear-gradient(180deg,  
+  #040a26 10%,  /* Deep Space Blue */
+  #201a47 30%,  /* Dark Violet */
+  #1a2c80 50%,  /* Cosmic Blue */
+  #6f62b9 70%,  /* Nebula Purple */
+  rgb(2, 6, 23) 100%  /* Space Sunset Glow */
+);
+background-attachment: fixed;
+    display: grid;
+    place-items: center;
+  }
+#title{
+ color: white;
+ font-size: 2.5em;
+ font-family: 'Cinzel', serif;
+ white-space:nowrap;
+ padding: 2vw 5vh;
+ text-shadow: 4px 4px 0 #999,  
+ 8px 8px 0 #666;
+}
+ 
+@media (max-width: 768px) {
+  .title-container {
+      justify-content: flex-start; /* Moves title up */
+      padding-top: 20vh; /* Pushes it slightly above center */
+  }
+}
