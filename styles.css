@@ -25,12 +25,7 @@ background-attachment: fixed;
     position: relative
 }
  
-@media (max-width: 768px) {
-  .title-container {
-      justify-content: flex-start; /* Moves title up */
-      padding-top: 20vh; /* Pushes it slightly above center */
-  }
-}
+
 *{
 margin:0;
 padding:0;
@@ -39,8 +34,7 @@ model-viewer{
   width: 98vw;
   height: 97vh;
   position: relative;
-  top: -23vh;
-  left: 0vw;
+  top: -10vh;
   background-color: #040a1100;
 }
 @font-face {
@@ -52,6 +46,5 @@ color: white;
 font-size: small;
 margin-top: 2px; /* Adjust spacing between title and quote */
     text-align: center;
-
-
 }
+
