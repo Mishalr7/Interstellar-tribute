@@ -47,9 +47,9 @@ margin-top: 2px; /* Adjust spacing between title and quote */
 }
 
 #title {
-  font-size: clamp(1.65rem, 5vw, 14rem); /* Increases size on large screens */
+  font-size: clamp(1.4rem, 4vw, 14rem); /* Increases size on large screens */
 }
 
 #quote {
-  font-size: clamp(0.65rem, 2vw, 4rem);
+  font-size: clamp(0.55rem, 1.5vw, 4rem);
 }
