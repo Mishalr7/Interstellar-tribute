@@ -9,31 +9,34 @@ background-attachment: fixed;
     display: grid;
     place-items: center;
   }
-#title{
- color: white;
- font-family: 'Linotype', serif;
- white-space:nowrap;
- padding: 2vw 5vh;
- text-shadow: 4px 4px 0 #999,  
- 8px 8px 0 #666;
- display: flex;
+  #title {
+    color: white;
+    font-family: 'Linotype', serif;
+    padding: 2vw 5vw; /* Use vw instead of vh for horizontal spacing */
+    text-shadow: 4px 4px 0 #999, 8px 8px 0 #666;
+    display: flex;
     flex-direction: column;
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    position: relative
-}
- 
+    position: relative;
+    font-size: clamp(1.4rem, 4vw, 14rem);
+    width: 100%;
+    white-space: normal; /* Allow wrapping if needed */
+    box-sizing: border-box;
+  }
+  
 
 *{
 margin:0;
 padding:0;
 }
 model-viewer{
-  width: 98vw;
+  width: 80vw;
   height: 97vh;
   position: relative;
   top: -10vh;
+  right: -3vw;
   background-color: #040a1100;
 }
 @font-face {
@@ -44,12 +47,9 @@ model-viewer{
 color: white;
 margin-top: 2px; /* Adjust spacing between title and quote */
     text-align: center;
+    font-size: clamp(0.55rem, 1.5vw, 4rem);
 }
 
-#title {
-  font-size: clamp(1.4rem, 4vw, 14rem); /* Increases size on large screens */
-}
 
-#quote {
-  font-size: clamp(0.55rem, 1.5vw, 4rem);
-}
+
+
