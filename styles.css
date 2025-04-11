@@ -36,7 +36,7 @@ model-viewer{
   height: 97vh;
   position: relative;
   top: -10vh;
-  right: -3vw;
+  right: -10vw;
   background-color: #040a1100;
 }
 @font-face {
