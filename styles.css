@@ -49,6 +49,20 @@ margin-top: 2px; /* Adjust spacing between title and quote */
     text-align: center;
     font-size: clamp(0.55rem, 1.5vw, 4rem);
 }
-
+#mishal{
+  color: white;
+  font-family: 'Linotype', serif;
+  padding: 2vw 5vw; /* Use vw instead of vh for horizontal spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-size: clamp(1rem, 3vw, 10rem);
+  width: 100%;
+  white-space: normal; /* Allow wrapping if needed */
+  box-sizing: border-box;
+       }
 
 
